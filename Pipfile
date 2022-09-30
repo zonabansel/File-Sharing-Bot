@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyrogram
+TgCrypto
+Pyromod
+sqlalchemy~=1.3.23
+psycopg2-binary
+feedparser
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
